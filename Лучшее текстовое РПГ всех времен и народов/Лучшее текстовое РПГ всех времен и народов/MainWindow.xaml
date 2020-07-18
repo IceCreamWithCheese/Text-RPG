@@ -1,0 +1,55 @@
+﻿<Window x:Name="main" x:Class="Лучшее_текстовое_РПГ_всех_времен_и_народов.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Лучшее_текстовое_РПГ_всех_времен_и_народов"
+        mc:Ignorable="d"
+        Title="Топ РПГ" Height="610" Width="800" Loaded="main_Loaded" Visibility="Visible"
+        WindowStartupLocation="CenterScreen" FontSize="48" KeyUp="main_KeyUp" MinWidth="800" MinHeight="610" MaxWidth="800" MaxHeight="600">
+    <Grid >
+        <Grid x:Name="menu" Background="#FF40214C">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="36*"/>
+                <ColumnDefinition Width="89*"/>
+                <ColumnDefinition Width="26*"/>
+                <ColumnDefinition Width="97*"/>
+                <ColumnDefinition Width="21*"/>
+                <ColumnDefinition Width="92*"/>
+                <ColumnDefinition Width="36*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="66*"/>
+                <RowDefinition Height="110*"/>
+                <RowDefinition Height="49*"/>
+                <RowDefinition Height="53*"/>
+                <RowDefinition Height="53*"/>
+                <RowDefinition Height="47*"/>
+                <RowDefinition Height="84*"/>
+                <RowDefinition Height="110*"/>
+            </Grid.RowDefinitions>
+            <Button x:Name="slot_1" BorderBrush="#FF250A0A" BorderThickness="7" Background="#FF151B34" Foreground="White" FontSize="18" Click="slot_1_Click" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="1" Grid.RowSpan="5" />
+            <Label  Content="Да начнется игра !" FontSize="24" Background="Black" FontWeight="Bold" Foreground="#FFE89393" BorderBrush="{x:Null}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.ColumnSpan="7" Margin="0,0,-0.4,0.6" />
+            <Label x:Name="name_1" HorizontalAlignment="Center"  Content="Не открыта" Grid.Row="3" Grid.Column="1"/>
+            <Label x:Name="movies_1" HorizontalAlignment="Center" Grid.Row="4" Grid.Column="1"/>
+            <Label x:Name="points_1" HorizontalAlignment="Center" Grid.Row="5" Grid.Column="1"/>
+
+            <Button x:Name="slot_2" BorderBrush="#FF250A0A" BorderThickness="7" Background="#FF151B34" Foreground="White" FontSize="18" Click="slot_2_Click" Grid.Row="2" Grid.Column="3" Grid.RowSpan="5" />
+            <Label x:Name="name_2" HorizontalAlignment="Center"  Content="Не открыта" Grid.Row="3" Grid.Column="3"/>
+            <Label x:Name="movies_2" HorizontalAlignment="Center" Grid.Row="4" Grid.Column="3"/>
+            <Label x:Name="points_2" HorizontalAlignment="Center" Grid.Row="5" Grid.Column="3"/>
+
+            <Button x:Name="slot_3" BorderBrush="#FF250A0A" BorderThickness="7" Background="#FF151B34" Foreground="White" FontSize="18" Click="slot_3_Click" Grid.Row="2" Grid.Column="5" Grid.RowSpan="5" />
+            <Label x:Name="name_3" HorizontalAlignment="Center"  Content="Не открыта" Grid.Row="3" Grid.Column="5"/>
+            <Label x:Name="movies_3" HorizontalAlignment="Center" Grid.Row="4" Grid.Column="5"/>
+            <Label x:Name="points_3" HorizontalAlignment="Center" Grid.Row="5" Grid.Column="5"/>
+            <Label x:Name="room_name" Content="Label" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="232" HorizontalContentAlignment="Center" Background="Black" Margin="24.4,0,31.6,0.4" Grid.ColumnSpan="3" Grid.Row="7"/>
+
+
+        </Grid>
+
+
+
+
+    </Grid>
+</Window>

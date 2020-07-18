@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Лучшее_текстовое_РПГ_всех_времен_и_народов">
+
+    <Style TargetType="{x:Type Button}">
+        <Setter Property="Background" Value="Orange"/>
+    </Style>
+
+    <Style TargetType="{x:Type Label}">
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontSize" Value="18" />
+
+    </Style>
+    
+</ResourceDictionary>
